@@ -15,4 +15,4 @@ jobs:
         uses: ruzickap/action-my-broken-link-checker@v2
         with:
           url: https://beta.riskprofiler.ca
-          cmd_params: '--header="User-Agent:curl/7.54.0" --exclude="(use.fontawesome.com|#)"'
+          cmd_params: '--header="User-Agent:curl/7.54.0" --exclude="(use.fontawesome.com|#|objects.githubusercontent.com)"'
